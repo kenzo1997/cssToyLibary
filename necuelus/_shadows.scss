@@ -1,0 +1,21 @@
+@each $key, $value in $colorz {
+  @each $k, $v in $txt-shadows {
+    .txt-shadow-#{$k} {
+      text-shadow: #{$v} black;
+    }
+
+    .txt-shadow-#{$k}-#{$key} {
+      text-shadow: #{$v} #{$value};
+    }
+  }
+
+  @each $k, $v in $bg-shadows {
+    .bg-shadow-#{$k} {
+      box-shadow: #{$v} black;
+    }
+
+    .bg-shadow-#{$k}-#{$key} {
+      box-shadow: #{$v} #{$value};
+    }
+  }
+}
