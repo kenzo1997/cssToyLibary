@@ -1,0 +1,78 @@
+$min: map-get($base-vars, 'min-margin');
+$max: map-get($base-vars, 'max-margin');
+
+@for $i from $min through $max {
+  .mg-#{$i} {
+    margin: $i;
+  }
+
+  .mg-t-#{$i} {
+    margin-top: $i;
+  }
+
+  .mg-r-#{$i} {
+    margin-right: $i;
+  }
+
+  .mg-b-#{$i} {
+    margin-bottom: $i;
+  }
+
+  .mg-l-#{$i} {
+    margin-left: $i;
+  }
+
+  .mg-tr-#{$i} {
+    margin-top: $i;
+    margin-right: $i;
+  }
+
+  .mg-tb-#{$i} {
+    margin-top: $i;
+    margin-bottom: $i;
+  }
+
+  .mg-tl-#{$i} {
+    margin-top: $i;
+    margin-left: $i;
+  }
+
+  .mg-rb-#{$i} {
+    margin-right: $i;
+    margin-bottom: $i;
+  }
+
+  .mg-rl-#{$i} {
+    margin-right: $i;
+    margin-left: $i;
+  }
+
+  .mg-bl-#{$i} {
+    margin-bottom: $i;
+    margin-left: $i;
+  }
+
+  .mg-trb-#{$i} {
+    margin-top: $i;
+    margin-right: $i;
+    margin-bottom: $i;
+  }
+
+  .mg-rbl-#{$i} {
+    margin-right: $i;
+    margin-bottom: $i;
+    margin-left: $i;
+  }
+
+  .mg-trl-#{$i} {
+    margin-top: $i;
+    margin-right: $i;
+    margin-left: $i;
+  }
+
+  .mg-tbl-#{$i} {
+    margin-top: $i;
+    margin-bottom: $i;
+    margin-left: $i;
+  }
+}

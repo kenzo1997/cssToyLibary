@@ -1,0 +1,80 @@
+//VARIABLES
+$base-vars: (
+  'min-padding': 10px,
+  'max-padding': 20px,
+  'min-margin': 0px,
+  'max-margin': 100px
+) !default;
+
+$base-fonts: (
+  "xs": 8px,
+  "sm": 12px,
+  "md": 16px,
+  "lg": 24px,
+  "xl": 26px
+) !default;
+
+$colorz: (
+  "blue": blue,
+  "red": red) !default ;
+
+$primary: map-get($colorz, "second");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//colors
+//$primary:   #32d6ee;
+//$secondaty: #16b3cc;
+//$error:     #df0a0a;
+//$info:      #e2df00;
+//
+////color pallete
+//$colors: (
+//  "primary": $primary,
+//  "secondaty": $secondaty,
+//  "error": $error,
+//  "info": $info,
+//  "black": #000000,
+//  "white": #FFFFFF,
+//  "purple": purple
+//);
+//
+////@debug map-get($colors, 'info');
+////@debug map-has-key($colors, 'error');
+////@debug map-remove($colors,'error' );
+////@debug map-merge($colors, ("pink": pink;))
+//
+//$base-padding: 0.75rem;
+//$base-margin: 0.75rem;
+//
+//$base-border-thickness: 1px;
+//$base-border-radius: 20px;
+//
+//$base-box-shadow: 1px 3px 5px gray;
+//
+//$base-font-size: 1rem;
+//$font-size-sm: $base-font-size * 0.75;
+//$font-size-lg: $base-font-size * 1.5;
+//$font-size-xl: $base-font-size * 2;
+//$font-size-xxl: $base-font-size * 3;

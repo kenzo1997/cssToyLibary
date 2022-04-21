@@ -1,0 +1,5 @@
+@each $key, $value in $base-fonts {
+  .fnt-#{$key} {
+    font-size: $value;
+  }
+}

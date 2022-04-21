@@ -1,0 +1,79 @@
+//padding
+$min: map-get($base-vars, 'min-padding');
+$max: map-get($base-vars, 'max-padding');
+
+@for $i from $min through $max {
+  .pd-#{$i} {
+    padding: $i;
+  }
+
+  .pd-t-#{$i} {
+    padding-top: $i;
+  }
+
+  .pd-r-#{$i} {
+    padding-right: $i;
+  }
+
+  .pd-b-#{$i} {
+    padding-bottom: $i;
+  }
+
+  .pd-l-#{$i} {
+    padding-left: $i;
+  }
+
+  .pd-tr-#{$i} {
+    padding-top: $i;
+    padding-right: $i;
+  }
+
+  .pd-tb-#{$i} {
+    padding-top: $i;
+    padding-bottom: $i;
+  }
+
+  .pd-tl-#{$i} {
+    padding-top: $i;
+    padding-left: $i;
+  }
+
+  .pd-rb-#{$i} {
+    padding-right: $i;
+    padding-bottom: $i;
+  }
+
+  .pd-rl-#{$i} {
+    padding-right: $i;
+    padding-left: $i;
+  }
+
+  .pd-bl-#{$i} {
+    padding-bottom: $i;
+    padding-left: $i;
+  }
+
+  .pd-trb-#{$i} {
+    padding-top: $i;
+    padding-right: $i;
+    padding-bottom: $i;
+  }
+
+  .pd-rbl-#{$i} {
+    padding-right: $i;
+    padding-bottom: $i;
+    padding-left: $i;
+  }
+
+  .pd-trl-#{$i} {
+    padding-top: $i;
+    padding-right: $i;
+    padding-left: $i;
+  }
+
+  .pd-tbl-#{$i} {
+    padding-top: $i;
+    padding-bottom: $i;
+    padding-left: $i;
+  }
+}

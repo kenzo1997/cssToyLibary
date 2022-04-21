@@ -1,0 +1,40 @@
+
+
+.container-sx {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+.container-sm {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.container-md {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+
+.container-lg {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+}
+
+.container-xl {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+}
+
+.container-xxl {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+}
+
+
+.row {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
