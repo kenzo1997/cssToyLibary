@@ -1,4 +1,4 @@
-@each $key, $value in $colorz {
+@each $key, $value in $colors {
   .txt-#{$key} {
     color: $value;
   }

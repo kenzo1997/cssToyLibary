@@ -3,3 +3,9 @@
     font-size: $value;
   }
 }
+
+@each $key, $value in $font-styles {
+  .fnt-#{$key} {
+    font-style: $value;
+  }
+}
