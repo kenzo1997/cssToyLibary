@@ -1,0 +1,12 @@
+@each $key, $value in $base-transforms {
+  .transform-#{$key} {
+    transform: $value;
+  }
+
+  .transform-#{$key}-hover {
+    &:hover {
+      transform: $value;
+    }
+
+  }
+}

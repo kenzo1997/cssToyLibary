@@ -1,0 +1,11 @@
+@each $key, $value in $base-transitions {
+  .transition-#{$key} {
+    transition: $value;
+  }
+
+  .transition-#{$key}-hover {
+    &:over {
+      transition: $value;
+    }
+  }
+}

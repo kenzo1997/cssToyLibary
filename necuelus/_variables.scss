@@ -43,4 +43,13 @@ $base-borders: (
   "sm-dotted": 2px dotted,
   "md": 4px solid,
   "md-dotted": 4px dotted
-)
+) !default;
+
+$base-transforms: (
+  "rx": matrix(1, -0.3, 0, 1, 0, 0),
+  "zx": matrix(-1, 0.3, 0, -1, 0, 0)
+) !default;
+
+$base-transitions: (
+  "zy": width 2s height 2s transform 2s
+) !default;
