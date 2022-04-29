@@ -1,0 +1,11 @@
+@each $key, $value in $base-borders {
+  .border-#{$key} {
+    border: $value black;
+  }
+
+  @each $k, $v in $colors {
+    .border-#{$key}-#{$k} {
+      border: $value $v
+    }
+  }
+}

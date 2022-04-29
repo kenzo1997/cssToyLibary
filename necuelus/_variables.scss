@@ -36,4 +36,11 @@ $font-styles: (
   "bold": bold,
   "it": italic,
   "normal": normal
+) !default;
+
+$base-borders: (
+  "sm": 2px solid,
+  "sm-dotted": 2px dotted,
+  "md": 4px solid,
+  "md-dotted": 4px dotted
 )
