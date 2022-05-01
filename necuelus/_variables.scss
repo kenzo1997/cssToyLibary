@@ -20,6 +20,11 @@ $colors: (
   "red": red
 ) !default ;
 
+$base-gradients: (
+  "rg": linear-gradient(red, green),
+  "ybw": linear-gradient(yellow, blue, white)
+) !default;
+
 $txt-shadows: (
   "sm": 2px 2px 2px,
   "md": 4px 4px 4px,

@@ -1,0 +1,5 @@
+@each $key, $value in $base-gradients {
+  .gradient-#{$key} {
+    background-image: $value;
+  }
+}
