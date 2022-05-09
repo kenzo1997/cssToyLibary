@@ -1,0 +1,79 @@
+@mixin card-setup($width, $height, $float: false, $index: 0) {
+  width: $width;
+  height: $height;
+  background-color: lime;
+  text-align: center;
+
+  @if($float) {
+    box-shadow: 5px 10px #888888;
+  }
+
+  z-index: $index
+}
+
+@mixin card-header-setup($width) {
+  font-size: 16px;
+  border: 1px solid black;
+  height: $width;
+}
+
+@mixin card-body-setup($width) {
+  margin-top: 10px;
+  font-size: 12px;
+  height: $width;
+  width: 100%;
+}
+
+@mixin card-footer-setup($width) {
+  font-size: 10px;
+  border: 1px solid black;
+  height: $width;
+}
+
+.card-sm {
+  @include card-setup(200px, 300px);
+
+  .card-header {
+    @include card-header-setup(75px);
+  }
+
+  .card-body {
+    @include card-body-setup(265px);
+  }
+
+  .card-footer {
+    @include card-footer-setup(50px);
+  }
+}
+
+.card-md {
+  @include card-setup(300px, 400px);
+
+  .card-header {
+    @include card-header-setup(75px);
+  }
+
+  .card-body {
+    @include card-body-setup(265px);
+  }
+
+  .card-footer {
+    @include card-footer-setup(50px);
+  }
+}
+
+.card-lg {
+  @include card-setup(400px, 400px);
+
+  .card-header {
+    @include card-header-setup(75px);
+  }
+
+  .card-body {
+    @include card-body-setup(265px);
+  }
+
+  .card-footer {
+    @include card-footer-setup(50px);
+  }
+}

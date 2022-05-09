@@ -17,7 +17,10 @@ $base-fonts: (
 
 $colors: (
   "blue": blue,
-  "red": red
+  "red": red,
+  "green": green,
+  "yellow": yellow,
+  "purple": purple
 ) !default ;
 
 $base-gradients: (
@@ -58,3 +61,12 @@ $base-transforms: (
 $base-transitions: (
   "zy": width 2s height 2s transform 2s
 ) !default;
+
+
+$base-breakpoints: (
+  "xs": 0,
+  "sm": 480px,
+  "md": 720px,
+  "lg": 960px,
+  "xl": 1200px
+)
